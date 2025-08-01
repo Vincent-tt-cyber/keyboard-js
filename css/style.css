@@ -96,3 +96,45 @@ body {
 .key.shift.shift-active {
   background-color: #4caf50;
 }
+
+@media (max-width: 768px) {
+
+  .keyboard {
+    width: 100%;
+  }
+  .key {
+    width: 30;
+    height: 30px;
+    font-size: 14px;
+    margin: 0 1px;
+  }
+
+  .key.space {
+    width: 150px;
+  }
+  .key.backspace {
+    width: 10px;
+  }
+  .key.tab {
+    width: 30px;
+  }
+  .key.caps {
+    width: 50px;
+    /* background: #a5d6a7; */
+  }
+  .key.caps.active-caps {
+    background: #4caf50;
+    color: white;
+  }
+  .key.enter {
+    width: 80px;
+  }
+  .key.shift {
+    width: 90px;
+  }
+
+  .input-field {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
