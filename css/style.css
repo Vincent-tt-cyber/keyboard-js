@@ -80,9 +80,9 @@ body {
 }
 .key.caps {
   width: 70px;
-  background: #a5d6a7;
+  /* background: #a5d6a7; */
 }
-.key.caps.active {
+.key.caps.active-caps {
   background: #4caf50;
   color: white;
 }
@@ -91,4 +91,8 @@ body {
 }
 .key.shift {
   width: 90px;
+}
+
+.key.shift.shift-active {
+  background-color: #4caf50;
 }
