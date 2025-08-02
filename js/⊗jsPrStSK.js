@@ -41,6 +41,9 @@ function handleSpecialKeys(action) {
       }
     });
   }
+  if (action === "backspace") {
+    input.value = input.value.slice(0, -1);
+  }
 }
 
 // Вывод текста
