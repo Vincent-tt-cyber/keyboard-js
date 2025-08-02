@@ -48,7 +48,6 @@ function handleSpecialKeys(action) {
 
 // Вывод текста
 function enterChar(text) {
-  input.focus();
   //   Если нажата клавиша CAPS
   const charToEnter =
     isCapsActive || isShiftActive ? text.toUpperCase() : text.toLowerCase();
